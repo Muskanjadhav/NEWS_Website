@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily News</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500$display=swap">
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <h1>Daily News</h1>
+        <div class="logo">
+             
+            <li id="sports" onclick="navClick('sports')">Sports</li>
+            <li id="politics" onclick="navClick('politics')">Politics</li>
+            <li id="technology" onclick="navClick('technology')">Technology</li>
+            <li id="ipl" onclick="navClick('ipl')">IPL</li>
+        </div>
+        <br>
+        <div class="category">
+            <h1 id="type"></h1>
+        </div>
+            <div class="searchBar">
+                <input id="inputData" type="text" value="" placeholder="Search Here...">
+                <button id="searchBtn" class="search-button">Search</button>
+            </div>
+    </nav>
+    <div class="cardData">
+        
+
+    </div>
+    </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
